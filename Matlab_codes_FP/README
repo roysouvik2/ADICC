@@ -1,0 +1,31 @@
+The folder contains the matlab codes for the optimal control problem.
+
+PDF solution process:
+
+The function names and the description is given below:
+
+1) fok_pl.m - Code for solving the Fokker-Planck equations.
+2) adj_fok_pl.m - Code for solving the adjoint of the Fokker-Planck equations.
+3) B_1.m, B_2.m - Contains the coefficients for the drift term.
+4) C_1.m, C_2.m - Contains the coefficients of the diffusion term.
+5) delta_1.m, delta_2.m - Values of delta corresponding to the i and j direction.
+6) grad_j.m - Code for the gradient.
+7) inner_g.m - Code for the inner product of a vector of functions.
+8) inter.m - Code for interpolation of controls u_1 and u_2.
+9) lin_search.m - Code for the linear search algorithm.
+10) ncg.m - Code for the NCG algorithm.
+11) J.m - Code for the functional.
+12) traj1.m - Code for the first trajectory.
+13) traj2.m - Code for the second trajectory.
+14) parameters.m - Includes parameters for the problem.
+15) V1.m - Definition of potential function.
+16) RH_MPC.m - Driver function for the MPC algorithm.
+
+
+Monte-Carlo simulation process:
+
+The function names and description are given below:
+
+1) model.m - Parameters for the stochastic model.
+2) milstein_2D.m - Code for Milstein's method of integration.
+3) TEST_CONTROLLED_MC_2D.m - Driver function for Monte-Carlo Simulation.
